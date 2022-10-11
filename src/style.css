@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    background-color: rgba(88, 181, 150, 0.99);
+    padding: 10px;
+} 
+
+main{
+    margin: 20px;
+} 
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.new-card{
+    border-style: double;
+} 
+
+.card-header{
+    background-color: rgb(15, 255, 175);
+}
+
+.user-info{
+    margin: 5px;
+}
+
+ul{
+    list-style: none;
+} 
+
+
+
+
+
+
+
+
