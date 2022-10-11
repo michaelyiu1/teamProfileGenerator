@@ -2,13 +2,13 @@ function generateCard(data){
 
     //Initialize variables
     let specificHTML;
-    if(data.name === 'Manager'){
+    if(data.role === 'Manager'){
         specificHTML = `<li>Office Number: ${data.officeNumber}</li>`;
     } 
     else if(data.role === 'Engineer'){
         specificHTML = `<li>Github: ${data.github}</li>`;
     }
-    else {
+    else if(data.role === 'Intern') {
         specificHTML = `<li>School: ${data.school}</li>`;
     }
 

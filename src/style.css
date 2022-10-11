@@ -12,18 +12,22 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 25px;
 } 
 
 .new-card{
     border-style: double;
+    margin: 20px;
 } 
 
 .card-header{
     background-color: rgb(15, 255, 175);
+    text-align: center;
 }
 
 .user-info{
-    margin: 5px;
+    padding-right: 10px;
+    text-align: left;
 }
 
 ul{
